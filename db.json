@@ -1,9 +1,325 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "users": [
+    {
+      "id": "uid1",
+      "firstName": "Kevin",
+      "middleName": "Hector",
+      "lastName": "Ng'etich",
+      "email": "kevinhector@athensai.com",
+      "nationalId": "12345678",
+      "gender": "Male",
+      "joined": "1st October 2000",
+      "lastLogin": "2024-10-01T08:00:00Z",
+      "status": "inactive",
+      "role": "IT Support",
+      "phoneNumber": "0711223344"
+    },
+    {
+      "id": "uid2",
+      "firstName": "Arap",
+      "middleName": "Ochieng",
+      "lastName": "Too",
+      "email": "araptoo@athensai.com",
+      "nationalId": "23456789",
+      "gender": "Male",
+      "joined": "11th November 2000",
+      "lastLogin": "2024-09-11T01:00:00Z",
+      "status": "inactive",
+      "role": "Customer Service"
+    },
+    {
+      "id": "uid3",
+      "firstName": "Amos",
+      "middleName": "Kiptoo",
+      "lastName": "Bomet",
+      "email": "amos@athensai.com",
+      "nationalId": "34567890",
+      "gender": "Male",
+      "joined": "22 February 1995",
+      "lastLogin": "2024-10-14T09:00:00Z",
+      "status": "inactive",
+      "role": "HR"
+    },
+    {
+      "id": "uid4",
+      "firstName": "Janet",
+      "middleName": "Wanjiru",
+      "lastName": "Nyaga",
+      "email": "janetnyaga@athensai.com",
+      "nationalId": "45678901",
+      "gender": "Female",
+      "joined": "5th June 1990",
+      "lastLogin": "2024-05-21T10:30:00Z",
+      "status": "active",
+      "role": "Finance"
+    },
+    {
+      "id": "uid5",
+      "firstName": "Chris",
+      "middleName": "Ndirangu",
+      "lastName": "Kimani",
+      "email": "chrisndirangu@athensai.com",
+      "nationalId": "56789012",
+      "gender": "Male",
+      "joined": "17th August 1988",
+      "lastLogin": "2023-12-20T11:45:00Z",
+      "status": "active",
+      "role": "Manager"
+    },
+    {
+      "id": "uid6",
+      "firstName": "Susan",
+      "middleName": "Wanjiku",
+      "lastName": "Wambui",
+      "email": "susanwambui@athensai.com",
+      "nationalId": "67890123",
+      "gender": "Female",
+      "joined": "9th September 1992",
+      "lastLogin": "2024-06-01T14:00:00Z",
+      "status": "inactive",
+      "role": "Customer Service"
+    },
+    {
+      "id": "uid7",
+      "firstName": "Peter",
+      "middleName": "Kamau",
+      "lastName": "Mwangi",
+      "email": "peterkamau@athensai.com",
+      "nationalId": "78901234",
+      "gender": "Male",
+      "joined": "3rd December 1985",
+      "lastLogin": "2024-03-17T07:15:00Z",
+      "status": "active",
+      "role": "Finance"
+    },
+    {
+      "id": "uid8",
+      "firstName": "Lucy",
+      "middleName": "Wangari",
+      "lastName": "Wanjiku",
+      "email": "lucywangari@athensai.com",
+      "nationalId": "89012345",
+      "gender": "Female",
+      "joined": "12th May 1998",
+      "lastLogin": "2024-08-02T13:25:00Z",
+      "status": "inactive",
+      "role": "IT Support"
+    },
+    {
+      "id": "uid9",
+      "firstName": "David",
+      "middleName": "Ochieng",
+      "lastName": "Otieno",
+      "email": "davidotieno@athensai.com",
+      "nationalId": "90123456",
+      "gender": "Male",
+      "joined": "14th April 1996",
+      "lastLogin": "2024-07-14T09:45:00Z",
+      "status": "inactive",
+      "role": "HR"
+    },
+    {
+      "id": "uid10",
+      "firstName": "Mary",
+      "middleName": "Wambui",
+      "lastName": "Mwangi",
+      "email": "marymwangi@athensai.com",
+      "nationalId": "01234567",
+      "gender": "Female",
+      "joined": "29th July 1993",
+      "lastLogin": "2024-01-05T15:00:00Z",
+      "status": "active",
+      "role": "Manager"
+    },
+    {
+      "id": "uid11",
+      "firstName": "Angela",
+      "middleName": "Chebet",
+      "lastName": "Njeri",
+      "email": "angelachebet@athensai.com",
+      "nationalId": "12345679",
+      "gender": "Female",
+      "joined": "22nd January 1994",
+      "lastLogin": "2024-10-10T11:00:00Z",
+      "status": "active",
+      "role": "Finance"
+    },
+    {
+      "id": "uid12",
+      "firstName": "John",
+      "middleName": "Muriuki",
+      "lastName": "Mwenda",
+      "email": "johnmwenda@athensai.com",
+      "nationalId": "98765432",
+      "gender": "Male",
+      "joined": "4th March 1991",
+      "lastLogin": "2024-09-15T08:30:00Z",
+      "status": "inactive",
+      "role": "Customer Service"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "datasources": [
+    {
+      "id": 1,
+      "name": "Profit/Loss Statements",
+      "type": "Postgres",
+      "link": "https://database.company.com/profit_loss"
+    },
+    {
+      "id": 2,
+      "name": "Employee Guidelines",
+      "type": "MongoDB",
+      "link": "https://database.company.com/employee_guidelines"
+    },
+    {
+      "id": 3,
+      "name": "Customer Database",
+      "type": "Postgres",
+      "link": "https://database.company.com/customer_db"
+    },
+    {
+      "id": 4,
+      "name": "Sales Reports",
+      "type": "Postgres",
+      "link": "https://database.company.com/sales_reports"
+    },
+    {
+      "id": 5,
+      "name": "Product Inventory",
+      "type": "MongoDB",
+      "link": "https://database.company.com/product_inventory"
+    },
+    {
+      "id": 6,
+      "name": "Supplier Information",
+      "type": "Postgres",
+      "link": "https://database.company.com/supplier_info"
+    },
+    {
+      "id": 7,
+      "name": "System Logs",
+      "type": "IP Address",
+      "link": "https://systemlogs.company.com"
+    },
+    {
+      "id": 8,
+      "name": "Financial Transactions",
+      "type": "Postgres",
+      "link": "https://database.company.com/financial_transactions"
+    },
+    {
+      "id": 9,
+      "name": "Employee Payroll",
+      "type": "MongoDB",
+      "link": "https://database.company.com/employee_payroll"
+    },
+    {
+      "id": 10,
+      "name": "Audit Trails",
+      "type": "IP Address",
+      "link": "https://systemlogs.company.com/audit_trails"
+    }
   ],
-  "profile": { "name": "typicode" }
+  "roles": [
+    {
+      "id": "rid1",
+      "name": "Manager",
+      "dataSources": [
+        "Employee Records",
+        "Financial Reports",
+        "Sales Data",
+        "Project Management"
+      ],
+      "dateCreated": "21st October 2024"
+    },
+    {
+      "id": "rid2",
+      "name": "Customer Service",
+      "dataSources": [
+        "Customer Accounts",
+        "Support Tickets",
+        "Knowledge Base",
+        "Order History"
+      ],
+      "dateCreated": "25th October 2024"
+    },
+    {
+      "id": "rid3",
+      "name": "Human Resource",
+      "dataSources": [
+        "Employee Records",
+        "Payroll",
+        "Training Records",
+        "Recruitment Data"
+      ],
+      "dateCreated": "29th October 2024"
+    },
+    {
+      "id": "rid4",
+      "name": "IT Support",
+      "dataSources": [
+        "User Accounts",
+        "System Logs",
+        "Network Configurations",
+        "Support Tickets"
+      ],
+      "dateCreated": "4th November 2024"
+    },
+    {
+      "id": "rid5",
+      "name": "HR",
+      "dataSources": [
+        "Employee Records",
+        "Recruitment Data",
+        "Compliance Documents",
+        "Performance Reviews"
+      ],
+      "dateCreated": "6th November 2024"
+    },
+    {
+      "id": "rid6",
+      "name": "Admin",
+      "dataSources": [
+        "All Data Access",
+        "System Logs",
+        "User Permissions",
+        "Compliance Reports"
+      ],
+      "dateCreated": "9th November 2024"
+    }
+  ],
+  "models": [
+    {
+      "id": "mid1",
+      "name": "Mistral",
+      "nickName": "Athens Alpha",
+      "size": "3 GB",
+      "dateAdded": "1st October 2024"
+    },
+    {
+      "id": "mid2",
+      "name": "Llama 3.2",
+      "nickName": "Athens Delphi",
+      "size": "2.5 GB",
+      "dateAdded": "10th October 2024"
+    },
+    {
+      "id": "mid3",
+      "name": "Gemma 2",
+      "nickName": "Athens Heracles",
+      "size": "5 GB",
+      "dateAdded": "19th October 2024"
+    },
+    {
+      "id": "mid4",
+      "name": "GPT-4",
+      "nickName": "Athens Helios",
+      "size": "100 GB",
+      "dateAdded": "28th October 2024"
+    }
+  ]
 }
+
+
+
+
