@@ -11,7 +11,7 @@
       "joined": "1st October 2000",
       "lastLogin": "2024-10-01T08:00:00Z",
       "status": "inactive",
-      "role": "it_support",
+      "role": "IT Support",
       "phoneNumber": "0711223344",
       "dateOfBirth": "1985-07-15"
     },
@@ -26,7 +26,7 @@
       "joined": "11th November 2000",
       "lastLogin": "2024-09-11T01:00:00Z",
       "status": "inactive",
-      "role": "customer_service",
+      "role": "Customer Service",
       "phoneNumber": "0712334455",
       "dateOfBirth": "1984-05-22"
     },
@@ -41,7 +41,7 @@
       "joined": "22 February 1995",
       "lastLogin": "2024-10-14T09:00:00Z",
       "status": "inactive",
-      "role": "hr",
+      "role": "HR",
       "phoneNumber": "0713445566",
       "dateOfBirth": "1980-09-10"
     },
@@ -56,7 +56,7 @@
       "joined": "5th June 1990",
       "lastLogin": "2024-05-21T10:30:00Z",
       "status": "active",
-      "role": "finance",
+      "role": "Finance",
       "phoneNumber": "0714556677",
       "dateOfBirth": "1986-02-19"
     },
@@ -71,7 +71,7 @@
       "joined": "17th August 1988",
       "lastLogin": "2023-12-20T11:45:00Z",
       "status": "active",
-      "role": "manager",
+      "role": "Manager",
       "phoneNumber": "0715667788",
       "dateOfBirth": "1978-11-02"
     },
@@ -86,7 +86,7 @@
       "joined": "9th September 1992",
       "lastLogin": "2024-06-01T14:00:00Z",
       "status": "inactive",
-      "role": "customer_service",
+      "role": "Customer Service",
       "phoneNumber": "0716778899",
       "dateOfBirth": "1990-01-18"
     },
@@ -101,7 +101,7 @@
       "joined": "3rd December 1985",
       "lastLogin": "2024-03-17T07:15:00Z",
       "status": "active",
-      "role": "finance",
+      "role": "Finance",
       "phoneNumber": "0717889900",
       "dateOfBirth": "1980-08-25"
     },
@@ -116,7 +116,7 @@
       "joined": "12th May 1998",
       "lastLogin": "2024-08-02T13:25:00Z",
       "status": "inactive",
-      "role": "it_support",
+      "role": "IT Support",
       "phoneNumber": "0718990011",
       "dateOfBirth": "1996-04-10"
     },
@@ -131,7 +131,7 @@
       "joined": "14th April 1996",
       "lastLogin": "2024-07-14T09:45:00Z",
       "status": "inactive",
-      "role": "hr",
+      "role": "HR",
       "phoneNumber": "0719001122",
       "dateOfBirth": "1992-02-17"
     },
@@ -146,7 +146,7 @@
       "joined": "29th July 1993",
       "lastLogin": "2024-01-05T15:00:00Z",
       "status": "active",
-      "role": "manager",
+      "role": "Manager",
       "phoneNumber": "0720002233",
       "dateOfBirth": "1990-06-30"
     },
@@ -161,7 +161,7 @@
       "joined": "22nd January 1994",
       "lastLogin": "2024-10-10T11:00:00Z",
       "status": "active",
-      "role": "finance",
+      "role": "Finance",
       "phoneNumber": "0722334455",
       "dateOfBirth": "1992-03-05"
     },
@@ -176,7 +176,7 @@
       "joined": "4th March 1991",
       "lastLogin": "2024-09-15T08:30:00Z",
       "status": "inactive",
-      "role": "customer_service",
+      "role": "Customer Service",
       "phoneNumber": "0723445566",
       "dateOfBirth": "1987-12-10"
     }
