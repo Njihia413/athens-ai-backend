@@ -317,28 +317,32 @@
       "name": "Mistral",
       "nickName": "Athens Alpha",
       "size": "3 GB",
-      "dateAdded": "1st October 2024"
+      "dateAdded": "1st October 2024",
+      "status": "active"
     },
     {
       "id": "mid2",
       "name": "Llama 3.2",
       "nickName": "Athens Delphi",
       "size": "2.5 GB",
-      "dateAdded": "10th October 2024"
+      "dateAdded": "10th October 2024",
+      "status": "inactive"
     },
     {
       "id": "mid3",
       "name": "Gemma 2",
       "nickName": "Athens Heracles",
       "size": "5 GB",
-      "dateAdded": "19th October 2024"
+      "dateAdded": "19th October 2024",
+      "status": "active"
     },
     {
       "id": "mid4",
       "name": "GPT-4",
       "nickName": "Athens Helios",
       "size": "100 GB",
-      "dateAdded": "28th October 2024"
+      "dateAdded": "28th October 2024",
+      "status": "inactive"
     }
   ]
 }
