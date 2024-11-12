@@ -268,17 +268,6 @@
     },
     {
       "id": "rid3",
-      "name": "Human Resource",
-      "dataSources": [
-        "Employee Records",
-        "Payroll",
-        "Training Records",
-        "Recruitment Data"
-      ],
-      "dateCreated": "29th October 2024"
-    },
-    {
-      "id": "rid4",
       "name": "IT Support",
       "dataSources": [
         "User Accounts",
@@ -289,7 +278,7 @@
       "dateCreated": "4th November 2024"
     },
     {
-      "id": "rid5",
+      "id": "rid4",
       "name": "HR",
       "dataSources": [
         "Employee Records",
@@ -300,7 +289,7 @@
       "dateCreated": "6th November 2024"
     },
     {
-      "id": "rid6",
+      "id": "rid5",
       "name": "Admin",
       "dataSources": [
         "All Data Access",
