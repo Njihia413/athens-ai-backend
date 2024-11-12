@@ -298,6 +298,17 @@
         "Compliance Reports"
       ],
       "dateCreated": "9th November 2024"
+    },
+    {
+      "id": "rid6",
+      "name": "Finance",
+      "dataSources": [
+        "Financial Reports",
+        "Budget Data",
+        "Expense Records",
+        "Audit Logs"
+      ],
+      "dateCreated": "12th November 2024"
     }
   ],
   "models": [
